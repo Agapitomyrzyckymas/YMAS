@@ -1,0 +1,190 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="ymas1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head> 
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-image: url('amyr122.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+.header {
+    width: 100%;
+    padding: 35px 7%;
+    background-color: rgba(54, 53, 52, 0.5); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100; 
+}
+.logo {
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    transition: 0.5s ease;
+    display: inline-block;
+}
+.logo:hover {
+    color: black;
+    text-shadow: 0 0 25px white, 0 0 25px white;
+    transform: scale(1.1);
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    margin-left: 75;
+    border-bottom: 3px solid transparent;
+    transition: 0.5s ease;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: black;
+    text-shadow: 0 0 25px white, 0 0 25px white;
+}
+
+section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+}
+
+.photo img{
+    width: 600px;
+    height: 600;
+    border-radius:50% ;
+}
+
+.content h1,p {
+    margin-left: 50px;
+    color: white;
+} 
+
+.p2 {
+    color: orange;
+}
+
+.p2:hover {
+    text-shadow: 0 0 50px rgb(255, 145, 0);
+    transform: scale(1.1);
+}
+
+center {
+    color: white;
+    margin-left: 50;
+}
+
+span {
+    color: orange;
+}
+
+span:hover {
+    text-shadow: 0 0 25px orange;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 118;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+}
+
+.icons:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5) ;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+</style>
+<body>
+    <header class="header">
+        <a href="home.html" class="logo" id="active"> SAYK</a>
+    <nav class="navbar">
+        <a href="#" class="active">ABOUT ME</a>
+        <a href="gallery.html" >GALLERY</a>
+        <a href="video.html" >VIDEO</a>
+        <a href="form.html" >FORM</a>
+        
+    
+    
+    </nav>
+
+    </header>
+
+    <section>
+        <div class="photo">
+            <img src="haha.png">
+        </div>
+
+        <div class="content">
+            <h1 class="content1"><center> Welcome to my website! I’m <span>Ymas</span> </center></h1>
+            <br>
+            <p style="text-align: justify;">
+                <center>
+                    <b>
+                        I love learning about new things and different cultures.  
+                        In my free time, I enjoy playing video games, reading, and exploring 
+                        new hobbies. I'm always looking for new ways to challenge myself and
+                        expand my horizons. I'm excited to share my passions and experiences
+                        with you here. I hope you have fun exploring my site! Feel free to 
+                        reach out if you want to connect!
+                    </b>
+                </center>
+            </p>
+            
+
+        </div >
+    </section>
+
+    <footer class="footer">
+        <nav class="footer2">
+            <div class="fb">
+                <a href="#" class="icons"><i class="fa-brands fa-facebook"></i> Amyr</a>
+            </div>
+            <div class="rights">
+                <p>&copy; 2024 All rights reserved Ymas.</p>
+            </div>
+
+            <div class="contact">
+                <a href="#" class="icons"><i class="fa-solid fa-phone"></i> 09156212826</a>   
+            </div>
+
+
+        </nav>
+    </footer>
+    
+</body>
+</html>
