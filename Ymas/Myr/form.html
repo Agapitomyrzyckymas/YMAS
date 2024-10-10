@@ -1,0 +1,191 @@
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="forms.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body {     background-image: url('amyr122.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+.header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 7%;
+    background-color: rgb(54, 53, 52, .5);
+   backdrop-filter: blur(10px);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 100;
+}
+.logo{
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    transition: 0.5s ease;
+}
+.logo:hover{
+    color: black;
+    text-shadow:  0 0 25px white,
+                  0 0 25px white;
+    transform: scale(1.1); 
+}
+.navbar a{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    margin-left:75 ;
+    border-bottom: 3px solid transparent;
+    transition: 0.5s ease;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: black;
+    text-shadow:  0 0 25px white,
+                  0 0 25px white;
+} 
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 85px 50px 50px 50px; 
+    background-color:rgb(54, 53, 52, 0.3);
+    border-radius: 10px;
+    box-shadow: 0px 30px 180px rgb(156, 154, 154);
+    max-width: 1000px;
+    margin: auto;
+    margin-top:50 ;
+}
+
+
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    font-weight: 1000;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(243, 235, 235);
+    font-size: 16px;
+    color: black;
+    transition: border 0.3s ease;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.btn {
+    background-color: darkred;
+    color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(80, 79, 79);
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 259;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+}
+
+.icons:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5) ;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+
+</style>
+<body>
+    <header class="header">
+        <a href="home.html" class="logo" a> SAYK </a>
+    <nav class="navbar">
+        <a href="aboutme.html" >ABOUT ME</a>
+        <a href="#"  >GALLERY</a>
+        <a href="video.html" >VIDEO</a>
+        <a href="form.html" class="active" >FORM</a>
+        
+    
+    
+    </nav>
+
+    </header>
+  
+    <section class="contact-section">
+    <div class="contact-form">
+        <form action="">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Feedback"></textarea>
+            <input type="submit" value="Send" class="btn">
+        </form>
+    </div>
+
+
+</section>
+
+<footer class="footer">
+    <nav class="footer2">
+        <div class="fb">
+            <a href="#" class="icons"><i class="fa-brands fa-facebook"></i> Amyr</a>
+        </div>
+        <div class="rights">
+            <p>&copy; 2024 All rights reserved Ymas.</p>
+        </div>
+
+        <div class="contact">
+            <a href="#" class="icons"><i class="fa-solid fa-phone"></i> 09156212826</a>   
+        </div>
+
+
+    </nav>
+</footer>
+
+    
+   
+</body>
+</html>
